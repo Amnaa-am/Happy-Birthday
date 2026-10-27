@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +8,8 @@
 <title>Happyy Birthdayyyy BBG 💜</title>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Dancing+Script:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Cormorant+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet">
 
 <style>
 :root {
@@ -17,7 +19,6 @@
   --lavender: #aa96d0;
   --silver: #ded9eb;
   --white: #fbf9ff;
-  --pink: #e7c9df;
   --glass: rgba(235,228,255,.065);
 }
 
@@ -33,7 +34,7 @@ body {
     radial-gradient(ellipse at 15% 15%, #594576 0, transparent 38%),
     radial-gradient(ellipse at 90% 80%, #403353 0, transparent 42%),
     linear-gradient(140deg, #171322, #29213f 55%, #211a35);
-  font-family: Poppins, sans-serif;
+  font-family: "Cormorant Garamond", serif;
   overflow-x: hidden;
 }
 
@@ -116,8 +117,9 @@ header {
 }
 
 .brand {
-  font-family: "Dancing Script", cursive;
-  font-size: 1.45rem;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.6rem;
+  font-weight: 600;
   color: var(--silver);
   letter-spacing: .5px;
 }
@@ -145,20 +147,25 @@ main {
 
 .eyebrow {
   color: #cbbce9;
-  font-size: .75rem;
+  font-size: .95rem;
   letter-spacing: 3px;
   text-transform: uppercase;
   margin-bottom: 14px;
 }
 
-h1, h2, h3, .script {
-  font-family: "Dancing Script", cursive;
+h1, h2, h3 {
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+}
+
+.script {
+  font-family: "Cormorant Garamond", serif;
   font-weight: 600;
 }
 
 h1 {
   font-size: clamp(2.6rem, 9vw, 5rem);
-  line-height: 1.12;
+  line-height: 1.2;
   margin: 8px 0 16px;
   color: #eee8ff;
   text-shadow: 0 0 22px #a18ad0;
@@ -166,7 +173,7 @@ h1 {
 
 h2 {
   font-size: clamp(2.2rem, 7vw, 3.6rem);
-  line-height: 1.12;
+  line-height: 1.25;
   margin: 5px 0 16px;
   color: #e6dcff;
 }
@@ -174,6 +181,7 @@ h2 {
 h3 { color: #e6dcff; }
 
 p {
+  font-size: 1.2rem;
   line-height: 1.9;
   color: #e3ddec;
 }
@@ -181,7 +189,7 @@ p {
 .subtitle {
   max-width: 620px;
   margin: 0 auto 24px;
-  font-size: .96rem;
+  font-size: 1.2rem;
 }
 
 .card {
@@ -207,6 +215,9 @@ p {
   background: rgba(153,128,196,.09);
   box-shadow: 0 0 12px rgba(177,151,230,.08);
   transition: .25s ease;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.15rem;
+  font-weight: 600;
 }
 
 .btn:hover {
@@ -217,7 +228,7 @@ p {
 
 .btn:disabled { opacity: .4; cursor: not-allowed; }
 
-.small { font-size: .8rem; color: #bdb2d0; }
+.small { font-size: 1rem; color: #bdb2d0; }
 
 .nav {
   position: fixed;
@@ -233,7 +244,7 @@ p {
   background: linear-gradient(transparent, rgba(24,19,37,.96) 25%);
 }
 
-.nav .btn { padding: 9px 16px; font-size: .85rem; }
+.nav .btn { padding: 9px 16px; font-size: 1.05rem; }
 
 .dots {
   display: flex;
@@ -385,8 +396,8 @@ p {
   top: 95px;
   left: 0;
   right: 0;
-  font-family: "Dancing Script", cursive;
-  font-size: 1.45rem;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.5rem;
   color: #fff5ff;
   text-shadow: 0 0 6px #ddc8ff;
 }
@@ -406,7 +417,7 @@ p {
 .letter {
   text-align: left;
   font-family: "Cormorant Garamond", serif;
-  font-size: 1.24rem;
+  font-size: 1.35rem;
   line-height: 1.85;
   color: #f1eafa;
   white-space: pre-wrap;
@@ -445,8 +456,8 @@ p {
 .polaroid span {
   display: block;
   padding-top: 9px;
-  font-family: "Dancing Script", cursive;
-  font-size: 1.15rem;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.3rem;
 }
 
 .slideshow {
@@ -610,13 +621,13 @@ p {
       <div id="unlockMessage" class="unlock-message">Bring our hearts together to unlock your surprise ✨</div>
       <button class="btn" onclick="unlockHearts()">Bring Our Hearts Together 💗</button>
     </div>
-    <p class="small">Made just for you, with all my love. 🦋</p>
+    <p class="small">Made just for you, with all my love🦋</p>
   </section>
 
   <!-- SLIDE 2: WELCOME -->
   <section class="slide" data-slide="1">
     <div class="eyebrow">Your own little galaxy</div>
-    <h1>Welcome, Rachuu ♡</h1>
+    <h1>Welcomeeee ♡</h1>
     <div class="heart">♡</div>
     <div class="card">
       <h2>Happyyy Birthdayyy<br>Thangameee🥹💗</h2>
@@ -629,7 +640,7 @@ p {
   <!-- SLIDE 3: CAKE -->
   <section class="slide" data-slide="2">
     <div class="eyebrow">It's your special day!</div>
-    <h1>Make a wish, BBG 🎂</h1>
+    <h1>Make a wish 🎂</h1>
     <p class="subtitle">A galaxy cake made especially for my favourite girl.</p>
 
     <div class="cake" aria-label="Birthday cake with candles">
@@ -643,11 +654,11 @@ p {
       <div class="frosting"></div>
       <div class="cake-layer top"></div>
       <div class="cake-layer bottom"></div>
-      <div class="cake-label">Rachuu ♡</div>
+      <div class="cake-label">Rachu ♡</div>
     </div>
 
-    <p id="cakeMessage">First, light up your candles, Thangameee! 🥹</p>
-    <button class="btn" onclick="lightCandles()">Light Up Your Candles, BBG🎀</button>
+    <p id="cakeMessage">First, light up your candles🥹</p>
+    <button class="btn" onclick="lightCandles()">Light Up Your Candles🎀</button>
     <button class="btn" onclick="blowCandles()">Make a Wish & Blow Them Out🥹💗</button>
     <div id="toast"></div>
   </section>
@@ -655,7 +666,7 @@ p {
   <!-- SLIDE 4: GIFT + BOND -->
   <section class="slide" data-slide="3">
     <div class="eyebrow">A tiny gift from my heart</div>
-    <h1>For you, Darling 💜</h1>
+    <h1>For youu💜</h1>
     <div class="card">
       <p>Some bonds are more than family. They're friendship, comfort, laughter, and a home in another person.</p>
       <button class="gift" id="giftBox" onclick="openGift()" aria-label="Open your birthday gift">🎁</button>
@@ -694,12 +705,12 @@ p {
 
     <div class="gallery">
       <div class="polaroid" style="--rotate:-3deg"><img src="rachuu1.jpg" alt="Memory 1"><span>♡</span></div>
-      <div class="polaroid" style="--rotate:2deg"><img src="rachuu2.jpg" alt="Memory 2"><span>♡</span></div>
-      <div class="polaroid" style="--rotate:-2deg"><img src="rachuu3.jpg" alt="Memory 3"><span>♡</span></div>
-      <div class="polaroid" style="--rotate:3deg"><img src="rachuu4.jpg" alt="Memory 4"><span>♡</span></div>
-      <div class="polaroid" style="--rotate:-1deg"><img src="rachuu5.jpg" alt="Memory 5"><span>♡</span></div>
+      <div class="polaroid" style="--rotate:2deg"><img src="rachuu2.jpg" alt="Memory 2"><span>2 idiots,one unbreakable bond♡</span></div>
+      <div class="polaroid" style="--rotate:-2deg"><img src="rachuu3.jpg" alt="Memory 3"><span>Uss♡</span></div>
+      <div class="polaroid" style="--rotate:3deg"><img src="rachuu4.jpg" alt="Memory 4"><span>Who allowed us to be this embarrasing??🥹🥹</span></div>
+      <div class="polaroid" style="--rotate:-1deg"><img src="rachuu5.jpg" alt="Memory 5"><span>My today,tomorrow and always♡</span></div>
     </div>
-    <p class="small">Your photos will appear here when you upload them. 🎀</p>
+    <p class="small"> 🎀</p>
   </section>
 
   <!-- SLIDE 7: VIDEO -->
@@ -711,7 +722,7 @@ p {
         <source src="rachuu_video.mp4" type="video/mp4">
         Your browser does not support this video.
       </video>
-      <p class="small">Replace rachuu_video.mp4 with your own video file.</p>
+      <p class="small">🥹🤍</p>
     </div>
   </section>
 
@@ -741,7 +752,7 @@ p {
 </main>
 
 <nav class="nav" aria-label="Slide navigation">
-  <button class="btn" id="backButton" onclick="previousSlide()">Go Back, BBG ♡</button>
+  <button class="btn" id="backButton" onclick="previousSlide()">Go Back ♡</button>
   <div class="dots" id="dots"></div>
   <button class="btn" id="nextButton" onclick="nextSlide()">Next Surprise 💗</button>
 </nav>
@@ -782,7 +793,7 @@ No matter where life takes us, you’ll always have a home in my heart. You will
 
 I love you more than this little website could ever show. Happy birthday, my darling. 💜
 
-Forever your sister, your best friend, and your forever headache 😌🖤`;
+Forever your sister and your best friend 😌🖤`;
 
 function makeSky() {
   const sky = document.getElementById("sky");
@@ -801,7 +812,7 @@ function makeSky() {
     sky.appendChild(star);
   }
 
-  const symbols = ["✧", "✦", "·", "✧", "♡"];
+  const symbols = ["✧", "✦"];
   for (let i = 0; i < 22; i++) {
     const glitter = document.createElement("span");
     glitter.className = "glitter";
@@ -838,6 +849,7 @@ function showSlide(index) {
 function nextSlide() {
   if (currentSlide < slides.length - 1) showSlide(currentSlide + 1);
 }
+
 function previousSlide() {
   if (currentSlide > 0) showSlide(currentSlide - 1);
 }
@@ -875,22 +887,22 @@ function lightCandles() {
   candlesBlown = false;
   document.querySelectorAll(".flame").forEach(flame => flame.classList.remove("out"));
   document.getElementById("cakeMessage").textContent =
-    "Make your sweetest wish, Thangameee! ✨";
-  document.getElementById("toast").textContent = "Your candles are glowing for you. 🎂";
+    "Make your sweetest wish....✨";
+  document.getElementById("toast").textContent = "Your candles are glowing for you🎂";
   sparkleBurst(10);
 }
 
 function blowCandles() {
   if (!candlesLit) {
     document.getElementById("cakeMessage").textContent =
-      "Light your candles first, BBG! 🎀";
+      "Light your candles first 🎀";
     return;
   }
   document.querySelectorAll(".flame").forEach(flame => flame.classList.add("out"));
   candlesBlown = true;
   document.getElementById("cakeMessage").textContent =
-    "Wish made! May all your beautiful dreams come true. 🥹💗";
-  document.getElementById("toast").textContent = "Happyyy Birthdayyy! 🎆";
+    "Wish made! May all your beautiful dreams come true 🥹💗";
+  document.getElementById("toast").textContent = "Happyyy Birthdayyy 🎆";
   sparkleBurst(65);
 }
 
@@ -946,7 +958,7 @@ function sparkleBurst(count = 20) {
   for (let i = 0; i < count; i++) {
     const bit = document.createElement("span");
     bit.className = "glitter";
-    bit.textContent = ["✧", "✦", "♡", "✨", "💜"][Math.floor(Math.random() * 5)];
+    bit.textContent = ["✧", "✦", "✨", "💜"][Math.floor(Math.random() * 5)];
     bit.style.left = (10 + Math.random() * 80) + "%";
     bit.style.top = (20 + Math.random() * 60) + "%";
     bit.style.animation = "rise 1.4s ease forwards";
@@ -957,7 +969,7 @@ function sparkleBurst(count = 20) {
 }
 
 function flowerRain() {
-  const flowers = ["🌸", "🌷", "✿", "🦋", "💜"];
+  const flowers = ["🌸", "🌷","💜"];
   for (let i = 0; i < 22; i++) {
     const petal = document.createElement("span");
     petal.className = "petal";
