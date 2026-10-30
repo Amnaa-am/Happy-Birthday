@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,8 +7,7 @@
 <title>Happyy Birthdayyyy BBG 💜</title>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Cormorant+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
 
 <style>
 :root {
@@ -23,7 +21,6 @@
 }
 
 * { box-sizing: border-box; }
-
 html { scroll-behavior: smooth; }
 
 body {
@@ -118,8 +115,7 @@ header {
 
 .brand {
   font-family: "Cormorant Garamond", serif;
-  font-size: 1.6rem;
-  font-weight: 600;
+  font-size: 1.45rem;
   color: var(--silver);
   letter-spacing: .5px;
 }
@@ -147,7 +143,7 @@ main {
 
 .eyebrow {
   color: #cbbce9;
-  font-size: .95rem;
+  font-size: .75rem;
   letter-spacing: 3px;
   text-transform: uppercase;
   margin-bottom: 14px;
@@ -158,14 +154,9 @@ h1, h2, h3 {
   font-weight: 600;
 }
 
-.script {
-  font-family: "Cormorant Garamond", serif;
-  font-weight: 600;
-}
-
 h1 {
   font-size: clamp(2.6rem, 9vw, 5rem);
-  line-height: 1.2;
+  line-height: 1.12;
   margin: 8px 0 16px;
   color: #eee8ff;
   text-shadow: 0 0 22px #a18ad0;
@@ -173,7 +164,7 @@ h1 {
 
 h2 {
   font-size: clamp(2.2rem, 7vw, 3.6rem);
-  line-height: 1.25;
+  line-height: 1.12;
   margin: 5px 0 16px;
   color: #e6dcff;
 }
@@ -181,7 +172,6 @@ h2 {
 h3 { color: #e6dcff; }
 
 p {
-  font-size: 1.2rem;
   line-height: 1.9;
   color: #e3ddec;
 }
@@ -189,7 +179,7 @@ p {
 .subtitle {
   max-width: 620px;
   margin: 0 auto 24px;
-  font-size: 1.2rem;
+  font-size: .96rem;
 }
 
 .card {
@@ -215,9 +205,6 @@ p {
   background: rgba(153,128,196,.09);
   box-shadow: 0 0 12px rgba(177,151,230,.08);
   transition: .25s ease;
-  font-family: "Cormorant Garamond", serif;
-  font-size: 1.15rem;
-  font-weight: 600;
 }
 
 .btn:hover {
@@ -227,8 +214,7 @@ p {
 }
 
 .btn:disabled { opacity: .4; cursor: not-allowed; }
-
-.small { font-size: 1rem; color: #bdb2d0; }
+.small { font-size: .8rem; color: #bdb2d0; }
 
 .nav {
   position: fixed;
@@ -244,7 +230,7 @@ p {
   background: linear-gradient(transparent, rgba(24,19,37,.96) 25%);
 }
 
-.nav .btn { padding: 9px 16px; font-size: 1.05rem; }
+.nav .btn { padding: 9px 16px; font-size: .85rem; }
 
 .dots {
   display: flex;
@@ -335,10 +321,7 @@ p {
   border-radius: 12px 12px 18px 18px;
 }
 
-.cake-layer.top {
-  top: 74px;
-  height: 65px;
-}
+.cake-layer.top { top: 74px; height: 65px; }
 
 .cake-layer.bottom {
   top: 125px;
@@ -397,7 +380,7 @@ p {
   left: 0;
   right: 0;
   font-family: "Cormorant Garamond", serif;
-  font-size: 1.5rem;
+  font-size: 1.45rem;
   color: #fff5ff;
   text-shadow: 0 0 6px #ddc8ff;
 }
@@ -417,7 +400,7 @@ p {
 .letter {
   text-align: left;
   font-family: "Cormorant Garamond", serif;
-  font-size: 1.35rem;
+  font-size: 1.24rem;
   line-height: 1.85;
   color: #f1eafa;
   white-space: pre-wrap;
@@ -457,7 +440,7 @@ p {
   display: block;
   padding-top: 9px;
   font-family: "Cormorant Garamond", serif;
-  font-size: 1.3rem;
+  font-size: 1.15rem;
 }
 
 .slideshow {
@@ -557,434 +540,3 @@ p {
 }
 </style>
 </head>
-
-<body>
-<div id="sky"></div>
-<div id="effects"></div>
-
-<button class="music-toggle" onclick="toggleMusicPanel()" aria-label="Open music player">♫</button>
-<div id="musicPanel">
-  <div style="display:flex;justify-content:space-between;align-items:center;gap:8px">
-    <strong>Our little soundtrack 💜</strong>
-    <button class="btn" onclick="toggleMusicPanel()" style="padding:5px 10px">Close ×</button>
-  </div>
-  <p class="small">Tap play below to start your chosen Tamil BGM. It can continue while you explore the slides.</p>
-  <iframe
-    src="https://www.youtube-nocookie.com/embed/1U4GSSQv1Zs?playsinline=1&rel=0"
-    title="Chosen birthday background music"
-    allow="autoplay; encrypted-media; picture-in-picture"
-    referrerpolicy="strict-origin-when-cross-origin"
-    allowfullscreen>
-  </iframe>
-</div>
-
-<header>
-  <div class="brand">A little universe, made with love ♡</div>
-</header>
-
-<main>
-  <!-- SLIDE 1: UNLOCK -->
-  <section class="slide active" data-slide="0">
-    <div class="eyebrow">A little surprise is waiting</div>
-    <h1>For youu💗</h1>
-    <div class="card">
-      <p class="subtitle">Heyyy guess what? I made something for youuu👀🎀</p>
-
-      <svg class="map-art" viewBox="0 0 520 190" role="img" aria-label="A glowing connection between Sri Lanka and the UAE">
-        <defs>
-          <linearGradient id="line" x1="0" x2="1">
-            <stop offset="0" stop-color="#d9c8ff"/>
-            <stop offset="1" stop-color="#e9c9df"/>
-          </linearGradient>
-          <filter id="softGlow">
-            <feGaussianBlur stdDeviation="4" result="blur"/>
-            <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-          </filter>
-        </defs>
-        <path d="M25 95 Q85 35 145 85 T260 90 T390 80 T495 95" stroke="#77678f" stroke-width="1" fill="none" stroke-dasharray="3 7"/>
-        <path d="M95 75 Q260 0 415 75" stroke="url(#line)" stroke-width="2" fill="none" stroke-dasharray="5 6"/>
-        <circle cx="95" cy="75" r="17" fill="#aa96d0" opacity=".15"/>
-        <circle cx="415" cy="75" r="17" fill="#e7c9df" opacity=".15"/>
-        <circle cx="95" cy="75" r="5" fill="#e5d9ff" filter="url(#softGlow)"/>
-        <circle cx="415" cy="75" r="5" fill="#f2d8eb" filter="url(#softGlow)"/>
-        <text x="95" y="48" fill="#e9e0ff" font-size="20" text-anchor="middle">🇱🇰</text>
-        <text x="415" y="48" fill="#e9e0ff" font-size="20" text-anchor="middle">🇦🇪</text>
-        <text x="95" y="112" fill="#e5d9ff" font-size="13" text-anchor="middle">Sri Lanka</text>
-        <text x="415" y="112" fill="#e5d9ff" font-size="13" text-anchor="middle">UAE</text>
-        <text x="255" y="150" fill="#cdbce9" font-size="13" text-anchor="middle">Two hearts • One forever bond</text>
-      </svg>
-
-      <div class="heart-buttons">
-        <button class="btn" id="heartOne" onclick="moveHeart(1)">💜 My heart</button>
-        <button class="btn" id="heartTwo" onclick="moveHeart(2)">🤍 Your heart</button>
-      </div>
-      <div id="unlockMessage" class="unlock-message">Bring our hearts together to unlock your surprise ✨</div>
-      <button class="btn" onclick="unlockHearts()">Bring Our Hearts Together 💗</button>
-    </div>
-    <p class="small">Made just for you, with all my love🦋</p>
-  </section>
-
-  <!-- SLIDE 2: WELCOME -->
-  <section class="slide" data-slide="1">
-    <div class="eyebrow">Your own little galaxy</div>
-    <h1>Welcomeeee ♡</h1>
-    <div class="heart">♡</div>
-    <div class="card">
-      <h2>Happyyy Birthdayyy<br>Thangameee🥹💗</h2>
-      <p>A tiny world made with all my love, just for you.</p>
-      <p>Every little star, sparkle, and surprise here is a reminder of how special you are to me.</p>
-      <button class="btn" onclick="nextSlide()">Enter Your Birthday Universe ✨</button>
-    </div>
-  </section>
-
-  <!-- SLIDE 3: CAKE -->
-  <section class="slide" data-slide="2">
-    <div class="eyebrow">It's your special day!</div>
-    <h1>Make a wish 🎂</h1>
-    <p class="subtitle">A galaxy cake made especially for my favourite girl.</p>
-
-    <div class="cake" aria-label="Birthday cake with candles">
-      <div class="candles">
-        <div class="candle"><div class="flame"></div></div>
-        <div class="candle"><div class="flame"></div></div>
-        <div class="candle"><div class="flame"></div></div>
-        <div class="candle"><div class="flame"></div></div>
-        <div class="candle"><div class="flame"></div></div>
-      </div>
-      <div class="frosting"></div>
-      <div class="cake-layer top"></div>
-      <div class="cake-layer bottom"></div>
-      <div class="cake-label">Rachu ♡</div>
-    </div>
-
-    <p id="cakeMessage">First, light up your candles🥹</p>
-    <button class="btn" onclick="lightCandles()">Light Up Your Candles🎀</button>
-    <button class="btn" onclick="blowCandles()">Make a Wish & Blow Them Out🥹💗</button>
-    <div id="toast"></div>
-  </section>
-
-  <!-- SLIDE 4: GIFT + BOND -->
-  <section class="slide" data-slide="3">
-    <div class="eyebrow">A tiny gift from my heart</div>
-    <h1>For youu💜</h1>
-    <div class="card">
-      <p>Some bonds are more than family. They're friendship, comfort, laughter, and a home in another person.</p>
-      <button class="gift" id="giftBox" onclick="openGift()" aria-label="Open your birthday gift">🎁</button>
-      <p class="small">Tap the gift to open it ✨</p>
-      <div id="giftMessage" class="hidden-message">
-        <div class="bouquet">💐🌸💜</div>
-        <h2>A little gift, a lot of love</h2>
-        <p>Surprise You deserve all the happiness, love, and magic in this universe. This little gift is filled with the love I wish I could give you in person. 🫂🤍</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- SLIDE 5: LETTER -->
-  <section class="slide" data-slide="4">
-    <div class="eyebrow">Read this slowly....</div>
-    <h1>A letter for you 💌</h1>
-    <div class="card">
-      <div class="letter" id="letterText"></div>
-      <button class="btn" id="letterButton" onclick="typeLetter()">Open Your Letter 💌</button>
-    </div>
-  </section>
-
-  <!-- SLIDE 6: GALLERY -->
-  <section class="slide" data-slide="5">
-    <div class="eyebrow">Little pieces of forever</div>
-    <h1>A Thousand Memories,<br>One Forever Bond</h1>
-    <p class="subtitle">Every photo holds a little piece of us. 💜</p>
-
-    <div class="slideshow">
-      <img id="mainPhoto" src="rachuu1.jpg" alt="A memory with Rachuu" onerror="this.alt='Add rachuu1.jpg to your GitHub repository';">
-      <div>
-        <button class="btn" onclick="changePhoto(-1)">← Previous</button>
-        <button class="btn" onclick="changePhoto(1)">Next →</button>
-      </div>
-    </div>
-
-    <div class="gallery">
-      <div class="polaroid" style="--rotate:-3deg"><img src="rachuu1.jpg" alt="Memory 1"><span>♡</span></div>
-      <div class="polaroid" style="--rotate:2deg"><img src="rachuu2.jpg" alt="Memory 2"><span>2 idiots,one unbreakable bond♡</span></div>
-      <div class="polaroid" style="--rotate:-2deg"><img src="rachuu3.jpg" alt="Memory 3"><span>Uss♡</span></div>
-      <div class="polaroid" style="--rotate:3deg"><img src="rachuu4.jpg" alt="Memory 4"><span>Who allowed us to be this embarrasing??🥹🥹</span></div>
-      <div class="polaroid" style="--rotate:-1deg"><img src="rachuu5.jpg" alt="Memory 5"><span>My today,tomorrow and always♡</span></div>
-    </div>
-    <p class="small"> 🎀</p>
-  </section>
-
-  <!-- SLIDE 7: VIDEO -->
-  <section class="slide" data-slide="6">
-    <div class="eyebrow">A little memory just for us</div>
-    <h1>Press to play🎬</h1>
-    <div class="card video-box">
-      <video controls playsinline preload="metadata" poster="rachuu1.jpg">
-        <source src="rachuu_video.mp4" type="video/mp4">
-        Your browser does not support this video.
-      </video>
-      <p class="small">🥹🤍</p>
-    </div>
-  </section>
-
-  <!-- SLIDE 8: FINAL SURPRISE -->
-  <section class="slide" data-slide="7">
-    <div class="eyebrow">One last thing, Rachuu…</div>
-    <h1>Come a little closer 🫂</h1>
-    <div class="card">
-      <p>Two little hearts. One forever bond.</p>
-      <button class="secret-heart" onclick="revealSecret()" aria-label="Reveal your secret message">💜🤍</button>
-      <p class="small">Tap our hearts for one last surprise ✨</p>
-
-      <div id="secretMessage" class="hidden-message">
-        <h2>My forever sister ♡</h2>
-        <p>No distance can ever change us. Forever my sister, forever my best friend.</p>
-        <p>Sending you the biggest hug darlinggg🫂💗 If only I could hug you right now and never let gooo. 🥹🤍</p>
-        <p>No matter where life takes us, you’ll always have a home in my heart.</p>
-        <div class="bouquet">🦋💜🤍🦋</div>
-        <h2>Until we meet again Rachuu...</h2>
-        <p>I love you endlessly. ♡</p>
-        <h2>Happyyy Birthdayyy Thangameee🥹💗</h2>
-        <p class="small">Your forever headache 😌🖤</p>
-        <button class="btn" onclick="flowerRain()">Send a little galaxy of love 🌸</button>
-      </div>
-    </div>
-  </section>
-</main>
-
-<nav class="nav" aria-label="Slide navigation">
-  <button class="btn" id="backButton" onclick="previousSlide()">Go Back ♡</button>
-  <div class="dots" id="dots"></div>
-  <button class="btn" id="nextButton" onclick="nextSlide()">Next Surprise 💗</button>
-</nav>
-
-<script>
-const slides = [...document.querySelectorAll(".slide")];
-const dotsContainer = document.getElementById("dots");
-let currentSlide = 0;
-let heartOne = false;
-let heartTwo = false;
-let candlesLit = false;
-let candlesBlown = false;
-let giftOpened = false;
-let letterStarted = false;
-let letterTimer = null;
-let photoIndex = 0;
-
-const photos = [
-  "rachuu1.jpg",
-  "rachuu2.jpg",
-  "rachuu3.jpg",
-  "rachuu4.jpg",
-  "rachuu5.jpg"
-];
-
-const letter =
-`My Dearest Gurlll, 💗
-
-Happyyy Birthdayyy to the girl who means so much more to me than words can ever explain🥹🤍
-
-You're not just my cousin. You're my first friend, my sister by heart, my safe place, and one of the most precious people in my life. Growing up with you gave me memories I'll always keep close to my heart.
-
-Even when we're busy with our own lives, nothing can change the place you have in my heart. I miss the little things, our conversations, our laughter, and the comfort of simply being around you. I wish I could be there today, celebrate beside you, see your beautiful smile, and give you the longest hug ever. 🫂
-
-If I could make one wish for you, it would be that life gives you the happiness you deserve, the peace your heart needs, and endless reasons to smile. May this new year of your life bring you beautiful opportunities, answered duas, good health, and so much love.
-
-No matter where life takes us, you’ll always have a home in my heart. You will always be my sister and my best friend.....
-
-I love you more than this little website could ever show. Happy birthday, my darling. 💜
-
-😌🖤`;
-
-function makeSky() {
-  const sky = document.getElementById("sky");
-  const effects = document.getElementById("effects");
-
-  for (let i = 0; i < 100; i++) {
-    const star = document.createElement("span");
-    star.className = "star";
-    const size = Math.random() * 2.5 + .5;
-    star.style.width = size + "px";
-    star.style.height = size + "px";
-    star.style.left = Math.random() * 100 + "%";
-    star.style.top = Math.random() * 100 + "%";
-    star.style.setProperty("--duration", (2 + Math.random() * 4) + "s");
-    star.style.animationDelay = (Math.random() * 4) + "s";
-    sky.appendChild(star);
-  }
-
-  const symbols = ["✧", "✦"];
-  for (let i = 0; i < 22; i++) {
-    const glitter = document.createElement("span");
-    glitter.className = "glitter";
-    glitter.textContent = symbols[Math.floor(Math.random() * symbols.length)];
-    glitter.style.left = Math.random() * 100 + "%";
-    glitter.style.animationDelay = (-Math.random() * 10) + "s";
-    glitter.style.setProperty("--duration", (7 + Math.random() * 10) + "s");
-    glitter.style.fontSize = (10 + Math.random() * 14) + "px";
-    effects.appendChild(glitter);
-  }
-}
-
-function buildDots() {
-  slides.forEach((_, i) => {
-    const dot = document.createElement("button");
-    dot.className = "dot" + (i === 0 ? " active" : "");
-    dot.setAttribute("aria-label", "Go to slide " + (i + 1));
-    dot.addEventListener("click", () => showSlide(i));
-    dotsContainer.appendChild(dot);
-  });
-}
-
-function showSlide(index) {
-  currentSlide = Math.max(0, Math.min(slides.length - 1, index));
-  slides.forEach((slide, i) => slide.classList.toggle("active", i === currentSlide));
-  [...dotsContainer.children].forEach((dot, i) => dot.classList.toggle("active", i === currentSlide));
-  document.getElementById("backButton").disabled = currentSlide === 0;
-  document.getElementById("nextButton").disabled = currentSlide === slides.length - 1;
-  document.getElementById("nextButton").textContent =
-    currentSlide === slides.length - 1 ? "The End ♡" : "Next Surprise 💗";
-  window.scrollTo({ top: 0, behavior: "smooth" });
-}
-
-function nextSlide() {
-  if (currentSlide < slides.length - 1) showSlide(currentSlide + 1);
-}
-
-function previousSlide() {
-  if (currentSlide > 0) showSlide(currentSlide - 1);
-}
-
-function moveHeart(which) {
-  if (which === 1) heartOne = true;
-  if (which === 2) heartTwo = true;
-  document.getElementById("heartOne").textContent = heartOne ? "💜 My heart ✓" : "💜 My heart";
-  document.getElementById("heartTwo").textContent = heartTwo ? "🤍 Your heart ✓" : "🤍 Your heart";
-  document.getElementById("unlockMessage").textContent =
-    heartOne && heartTwo
-      ? "Our hearts are ready to become one. Tap the button below. ✨"
-      : "One heart glowing… now bring the other one close. 💗";
-}
-
-function unlockHearts() {
-  const message = document.getElementById("unlockMessage");
-  if (!heartOne || !heartTwo) {
-    message.textContent = "Tap both hearts first, gurlll! 💜";
-    message.style.animation = "shake .3s";
-    setTimeout(() => message.style.animation = "", 350);
-    return;
-  }
-  message.textContent = "Different countries, two different lives, but one unbreakable bond. 💗";
-  sparkleBurst(28);
-  setTimeout(() => showSlide(1), 1400);
-}
-
-function toggleMusicPanel() {
-  document.getElementById("musicPanel").classList.toggle("show");
-}
-
-function lightCandles() {
-  candlesLit = true;
-  candlesBlown = false;
-  document.querySelectorAll(".flame").forEach(flame => flame.classList.remove("out"));
-  document.getElementById("cakeMessage").textContent =
-    "Make your sweetest wish....✨";
-  document.getElementById("toast").textContent = "Your candles are glowing for you🎂";
-  sparkleBurst(10);
-}
-
-function blowCandles() {
-  if (!candlesLit) {
-    document.getElementById("cakeMessage").textContent =
-      "Light your candles first 🎀";
-    return;
-  }
-  document.querySelectorAll(".flame").forEach(flame => flame.classList.add("out"));
-  candlesBlown = true;
-  document.getElementById("cakeMessage").textContent =
-    "Wish made! May all your beautiful dreams come true 🥹💗";
-  document.getElementById("toast").textContent = "Happyyy Birthdayyy 🎆";
-  sparkleBurst(65);
-}
-
-function openGift() {
-  if (giftOpened) return;
-  giftOpened = true;
-  document.getElementById("giftBox").classList.add("open");
-  document.getElementById("giftBox").textContent = "💝";
-  document.getElementById("giftMessage").classList.add("show");
-  sparkleBurst(35);
-  flowerRain();
-}
-
-function typeLetter() {
-  if (letterStarted) {
-    document.getElementById("letterText").textContent = letter;
-    return;
-  }
-  letterStarted = true;
-  document.getElementById("letterButton").textContent = "Read the full letter 💜";
-  const target = document.getElementById("letterText");
-  target.textContent = "";
-  let i = 0;
-  letterTimer = setInterval(() => {
-    target.textContent += letter.charAt(i);
-    i++;
-    if (i >= letter.length) {
-      clearInterval(letterTimer);
-      target.textContent = letter;
-      sparkleBurst(12);
-    }
-  }, 24);
-}
-
-function changePhoto(direction) {
-  photoIndex = (photoIndex + direction + photos.length) % photos.length;
-  const photo = document.getElementById("mainPhoto");
-  photo.src = photos[photoIndex];
-  photo.alt = "Memory " + (photoIndex + 1) + " with Rachuu";
-  photo.style.animation = "none";
-  void photo.offsetWidth;
-  photo.style.animation = "rise .5s ease";
-}
-
-function revealSecret() {
-  document.getElementById("secretMessage").classList.add("show");
-  sparkleBurst(45);
-  flowerRain();
-}
-
-function sparkleBurst(count = 20) {
-  const layer = document.getElementById("effects");
-  for (let i = 0; i < count; i++) {
-    const bit = document.createElement("span");
-    bit.className = "glitter";
-    bit.textContent = ["✧", "✦", "✨", "💜"][Math.floor(Math.random() * 5)];
-    bit.style.left = (10 + Math.random() * 80) + "%";
-    bit.style.top = (20 + Math.random() * 60) + "%";
-    bit.style.animation = "rise 1.4s ease forwards";
-    bit.style.fontSize = (12 + Math.random() * 17) + "px";
-    layer.appendChild(bit);
-    setTimeout(() => bit.remove(), 1600);
-  }
-}
-
-function flowerRain() {
-  const flowers = ["🌸", "🌷","💜"];
-  for (let i = 0; i < 22; i++) {
-    const petal = document.createElement("span");
-    petal.className = "petal";
-    petal.textContent = flowers[Math.floor(Math.random() * flowers.length)];
-    petal.style.left = Math.random() * 100 + "vw";
-    petal.style.fontSize = (15 + Math.random() * 20) + "px";
-    petal.style.animationDuration = (4 + Math.random() * 3) + "s";
-    document.body.appendChild(petal);
-    setTimeout(() => petal.remove(), 7500);
-  }
-}
-
-makeSky();
-buildDots();
-showSlide(0);
-</script>
-</body>
-</html>
